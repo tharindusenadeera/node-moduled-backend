@@ -1,0 +1,29 @@
+# db credentials
+ORACLE_DB_USER=
+ORACLE_DB_PASSWORD=
+ORACLE_DB_CONNECTION_STRING=
+
+# SMTP server credentials
+#SMTP_SECURE true for port 465, false for other ports
+SMTP_HOST=
+SMTP_PORT=
+SMTP_SECURE=
+SMTP_USERNAME=
+SMTP_PASSWORD=
+
+# SMS server credentials
+SMS_URL=
+SMS_CHANNEL=
+SMS_CHANNEL_PASSWORD=
+SMS_DEPARTMENT=
+SMS_CATEGORY=
+
+#jwt credentials
+JWT_TOKEN_SECRET=
+
+#sys language
+DEFAULT_SYS_LANGUAGE=
+DEFAULT_COMM_LANGUAGE=
+
+#front end data
+FRONT_END_HOST=

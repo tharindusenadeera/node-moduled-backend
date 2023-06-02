@@ -1,0 +1,49 @@
+{
+  "name": "web-router",
+  "version": "1.0.0",
+  "description": "Web Router",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev-start": "nodemon app.js",
+    "dev-install": "cd scripts && install.bat",
+    "dev-install-shell": "./scripts/install.sh",
+    "dev-module-install": "cd scripts/module-scripts && module-install.bat",
+    "prod-install": "./scripts/install.sh"
+  },
+  "engines": {
+    "node": ">=16.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/l1654/rdb/webrouter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/l1654/rdb/webrouter/issues"
+  },
+  "homepage": "https://gitlab.com/l1654/rdb/webrouter#readme",
+  "dependencies": {
+    "auth": "git+https://subhash8:glpat-N5a7DtZ8rnn9azVZcGBf@gitlab.com/l1654/rdb/authmodule.git#development",
+    "bank-service-invoker": "git+https://subhash8:glpat-N5a7DtZ8rnn9azVZcGBf@gitlab.com/l1654/rdb/bankserviceinvoker.git#development",
+    "body-parser": "^1.19.2",
+    "communication-service": "git+https://subhash8:glpat-N5a7DtZ8rnn9azVZcGBf@gitlab.com/l1654/rdb/communicationservice.git#development",
+    "content-type": "^1.0.4",
+    "cors": "2.8.5",
+    "decision-engine": "git+https://subhash8:glpat-N5a7DtZ8rnn9azVZcGBf@gitlab.com/l1654/rdb/decisionengine.git#development",
+    "document-management": "git+https://subhash8:glpat-N5a7DtZ8rnn9azVZcGBf@gitlab.com/l1654/rdb/dms.git#development",
+    "dotenv": "16.0.0",
+    "express": "4.17.3",
+    "los-service": "git+https://subhash8:glpat-N5a7DtZ8rnn9azVZcGBf@gitlab.com/l1654/rdb/losservice.git#development",
+    "raw-body": "^2.5.1",
+    "third-party-service": "git+https://subhash8:glpat-N5a7DtZ8rnn9azVZcGBf@gitlab.com/l1654/rdb/thirdpartyservice.git#development",
+    "utility": "git+https://subhash8:glpat-N5a7DtZ8rnn9azVZcGBf@gitlab.com/l1654/rdb/utilitymodule.git#development",
+    "workflow-engine": "git+https://subhash8:glpat-N5a7DtZ8rnn9azVZcGBf@gitlab.com/l1654/rdb/workflowengine.git#development"
+  }
+}

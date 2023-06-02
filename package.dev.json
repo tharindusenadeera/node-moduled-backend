@@ -1,0 +1,49 @@
+{
+  "name": "web-router",
+  "version": "1.0.0",
+  "description": "Web Router",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev-start": "nodemon app.js",
+    "dev-install": "cd scripts && install.bat",
+    "dev-install-shell": "./scripts/install.sh",
+    "dev-module-install": "cd scripts/module-scripts && module-install.bat",
+    "prod-install": "./scripts/install.sh"
+  },
+  "engines": {
+    "node": ">=16.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/l1654/rdb/webrouter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/l1654/rdb/webrouter/issues"
+  },
+  "homepage": "https://gitlab.com/l1654/rdb/webrouter#readme",
+  "dependencies": {
+    "auth": "file:modules/auth",
+    "bank-service-invoker": "file:modules/bank-service-invoker",
+    "body-parser": "^1.19.2",
+    "communication-service": "file:modules/communication-service",
+    "content-type": "^1.0.4",
+    "cors": "2.8.5",
+    "decision-engine": "file:modules/decision-engine",
+    "document-management": "file:modules/document-management",
+    "dotenv": "16.0.0",
+    "express": "4.17.3",
+    "los-service": "file:modules/los-service",
+    "raw-body": "^2.5.1",
+    "third-party-service": "file:modules/third-party-service",
+    "utility": "file:modules/utility",
+    "workflow-engine": "file:modules/workflow-engine"
+  }
+}

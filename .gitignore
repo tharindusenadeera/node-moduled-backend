@@ -1,0 +1,12 @@
+**/.vscode/*
+**/node_modules/*
+**/modules/*
+**/build/*
+**/dist/*
+.idea
+pnpm-lock.yaml
+**/public/*
+**/.cache/*
+**/logs/*
+.env
+modules/communication-service
